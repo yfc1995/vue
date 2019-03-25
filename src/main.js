@@ -4,6 +4,10 @@ import Vue from 'vue'
 import FastClick from 'fastclick'
 import App from './App'
 import router from './router/index.js'
+import Element from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css';
+import 'element-ui/lib/theme-chalk/display.css';
+Vue.use(Element);
 
 FastClick.attach(document.body)
 

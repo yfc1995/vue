@@ -1,6 +1,8 @@
 <template>
 	<div class="index">
 		<div class="hello" :class="{firstName: firstName}">我爱你{{fullName}}</div>
+    <div v-if="Math.random() > 0.5">hello world</div>
+    <div v-else>hello</div>
 	</div>
 </template>
 
